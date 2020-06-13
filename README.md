@@ -14,6 +14,7 @@ This code is originally been written on Azure Databricks , so along with H2O Mod
 
 MLFlow is an efficient way on Databricks to track and secure the machine learnning training model runs by capturing a unique RUNID for every fresh notebook run 
 
-The code has been written in Spark and H2O on Azure Databricks . Please find below link of the Databricks code along with results  :  
+The code has been written in Spark and H2O on Azure Databricks . Please download HTML file of Databricks code with results.  
+Below is the link :   
 https://www.dropbox.com/s/ane5t5mmkr93l1j/H2O_Parallel_Modelling.html?dl=0 
 

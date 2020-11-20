@@ -1,0 +1,6 @@
+SELECT  DATE_TRUNC(‘MONTH’,TIMESTAMP) AS date,
+distinct(count(*)) as count, 
+100*(distinct(count(*) - lag(distinct(count(*),1) over ( order by timestamp)) /  lag ( distinct(count),1) over ( order by timestamp)) || ‘%’ as growth
+From logins
+Groupby 1
+Order by 1 
